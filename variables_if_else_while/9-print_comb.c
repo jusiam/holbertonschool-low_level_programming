@@ -6,7 +6,7 @@ int main(void)
 for (digits = '0'; digits <= '9' ; digits++)
  {
      putchar(digits);
-   if (digits < 9);
+   if (digits < '9')
    {
    putchar (',');
    putchar (' ');
