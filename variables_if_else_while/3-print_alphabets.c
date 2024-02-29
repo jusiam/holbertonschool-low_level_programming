@@ -1,21 +1,23 @@
 #include <stdio.h>
-#include <ctype.h>
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
+ * main - main block
+ * Description: Use `putchar` to print lowercase and then uppercase alphabet.
+ * Return: 0
  */
 int main(void)
 {
-char alphabet;
-for (alphabet = 'a'; alphabet <= 'z' ; alphabet++)
+char c = 'a';
+while (c <= 'z')
 {
-putchar(alphabet);
+putchar(c);
+c++;
+}
+c = 'A';
+while (c <= 'Z')
+{
+putchar(c);
+c++;
 }
 putchar('\n');
-for (alphabet = 'a'; alphabet <= 'z' ; alphabet++)
-{
-putchar (toupper(alphabet));
-}
 return (0);
 }
