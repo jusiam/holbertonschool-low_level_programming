@@ -3,7 +3,7 @@
 
 /**
  * main - Check description
- * Description: Write a function that prints the alphabet.
+ * Description: Write a function that print_alphabet.
  * Return: 0.
  */
 void print_alphabet(void)
