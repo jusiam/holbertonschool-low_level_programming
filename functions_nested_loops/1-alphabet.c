@@ -6,7 +6,6 @@
  * Description: It prints the word _putchat, followed by a new line.
  * Return: 0.
  */
-
 void print_alphabet(void)
 {
 char i;
