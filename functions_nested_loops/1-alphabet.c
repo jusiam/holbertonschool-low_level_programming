@@ -1,9 +1,9 @@
 #include <unistd.h>
 #include "main.h"
 /**
- *  main -Entry point
- *
- *  Return: Always 0 (Success)
+ * main - Check description
+ * Description: Write a function that prints the alphabet, in lowercase
+ * Return: 0.
  */
 void print_alphabet(void)
 {
