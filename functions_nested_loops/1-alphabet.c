@@ -3,7 +3,7 @@
 
 /**
  * main - Check description
- * Description: Write a function that prints the alphabet, in lowercase, followed by a new line.
+ * Description: Write a function that prints the alphabet.
  * Return: 0.
  */
 void print_alphabet(void)
