@@ -3,10 +3,13 @@
 
 /**
  * main - Check description
- * Description: Write a function that print_alphabet.
+ * Description: Write a function that prints the alphabet.
  * Return: 0.
  */
 void print_alphabet(void)
+/**
+ * print_alphabet.
+ */
 {
 char i;
 for (i = 'a'; i <= 'z'; i++)
