@@ -1,9 +1,7 @@
-#include <unistd.h>
 #include "main.h"
 /**
- * main - Check description
- * Description: print_alphabet - uses _putchar function to print
- * Return: 0.
+ * print_alphabet - uses _putchar function to print
+ * the alphabet a - z
  */
 void print_alphabet(void)
 {
