@@ -5,7 +5,7 @@
  * Description: Write a function that prints the alphabet, in lowercase
  * Return: 0.
  */
-void print_alphabet_x10(void);
+void print_alphabet_x10(void)
 {
 char i;
 for (i = 'a'; i <= 'z'; i++)
