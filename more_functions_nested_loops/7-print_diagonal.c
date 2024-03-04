@@ -17,8 +17,8 @@ int x;
 
 for (x = 0 ; x < n ; x++)
 _putchar('\\');
-if (n > 1)
 _putchar('\n');
+if (n > 1)
 _putchar(' ');
 }
 }
