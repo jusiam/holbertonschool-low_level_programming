@@ -1,24 +1,25 @@
 #include "main.h"
 
 /**
- * print_diagonal - check the code.
- * @n: parameter to be checked 
- * n is the number of times the character \ should be printed
- * Return: returns 0
+ * print_diagonal - function to print \ on the terminal
+ * @n: parameter to be checked
+ * Return: returns the value 0
  */
 
 void print_diagonal(int n)
 {
-if (n <= 0)
-_putchar('\n');
-else
-{
-int x;
+	if (n <= 0)
+		_putchar('\n');
+	else
+	{
+		int x, y;
 
-for (x = 0 ; x < n ; x++)
-_putchar('\\');
-_putchar('\n');
-if (n > 1)
-_putchar(' ');
-}
+		for (x = 0 ; x < n ; x++)
+		{
+			for (y = 1 ; y <= x; y++)
+				_putchar(' ');
+			_putchar('\\');
+			_putchar('\n');
+		}
+	}
 }
