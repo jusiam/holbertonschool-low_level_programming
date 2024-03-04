@@ -2,15 +2,15 @@
 
 /**
  * print_last_digit - print last digit of a numer n.
- * @n: The integer to be computed.
+ * @: The integer to be computed.
  *
  * Return: value of the last digit.
  */
 int print_last_digit(int n)
 {
-x=n%10
-	if (x >= 0)
-		return (x+'0');
+n=n%10
+	if (n >= 0)
+		return (n);
 	else
-		return (-x+'0');
+		return (-n);
 }
