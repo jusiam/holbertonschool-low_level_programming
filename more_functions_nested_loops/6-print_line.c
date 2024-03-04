@@ -12,8 +12,9 @@ _putchar('\n');
 else
 {
 int x;
+
 for (x = 0 ; x < n ; x++)
-_putchar("_");
+_putchar('_');
 _putchar('\n');
 }
 }
