@@ -1,9 +1,12 @@
 #include <stdio.h>
+#include "main.h"
+
 /**
- * print_numbers - check the code
- * @a: variable
- * Return: result.
+ * print_numbers - check the code.
+ *
+ * Return: 0
  */
+
 void print_numbers(void)
 {
 	char a;
