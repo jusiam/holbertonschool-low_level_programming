@@ -2,7 +2,8 @@
 
 /**
  * print_diagonal - check the code.
- * @n: parameter to be checked
+ * @n: parameter to be checked 
+ * n is the number of times the character \ should be printed
  * Return: returns 0
  */
 
