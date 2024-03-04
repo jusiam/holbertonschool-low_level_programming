@@ -1,21 +1,19 @@
 #include "main.h"
 
 /**
- * print_sign - Prints the sign of a number.
+ * _abs - Prints the absolute number.
  * @n: The number of which the sign will be printed.
  *
- * Return: 1 if the number is greater than zero,
- *         0 if the number is zero,
- *         -1 if the number is less than zero.
+ * Return the absolute number
  */
-int print_sign(int n)
+int _abs(int);
 {
 if (n > 0)
 {
-_putchar(n);
+return(n);
 }	
 else
 {
-_putchar("n*-1");
+return(-n);
 }
 }
