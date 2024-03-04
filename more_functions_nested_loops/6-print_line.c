@@ -2,6 +2,7 @@
 
 /**
  * print_line - check the code.
+ * @n: parameter to be checked
  * Return: returns 0
  */
 
