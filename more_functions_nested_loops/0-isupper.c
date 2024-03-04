@@ -1,16 +1,14 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
-#include <main.h>
+#include "main.h"
 /**
- * main - Entry point
+ * _islower - Checks if a character is uppercase.
+ * @c: The character to be checked.
  *
- * Return: Always 0 (Success)
+ * Return: 1 if character is uppercase, 0 otherwise.
  */
 int _isupper(int c)
 {
-	if (c > 64 && c < 91)
-		return (1);
-
-	return (0);
+if (c > 64 && c < 91)
+return (1);
+else
+return (0);
 }
