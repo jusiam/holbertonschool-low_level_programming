@@ -4,7 +4,7 @@
  * @a: variable
  * Return: result.
  */
-void print_numbers(void c)
+void print_numbers(void a)
 {
 	char a;
 
