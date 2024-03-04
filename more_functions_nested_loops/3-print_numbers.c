@@ -1,12 +1,16 @@
 #include <stdio.h>
 /**
- * mul - check the code
+ * print_numbers - check the code
  * @a: variable
- * @b: variable
  * Return: result.
  */
 void print_numbers(void c)
 {
-if (c > 47 && c < 58)
-_putchar (c);
+	char a;
+
+	for (a = 48; a <= 57; a++)
+	{
+		_putchar(a);
+	}
+	_putchar('\n');
 }
