@@ -1,15 +1,15 @@
 #include "main.h"
 
 /**
- * _abs - Prints the absolute number.
- * @n: The number of which the sign will be printed.
+ * _abs - Computes the absolute value of an integer.
+ * @n: The integer to be computed.
  *
- * Return the absolute number
+ * Return: The absolute value of the integer.
  */
-int _abs(int n);
+int _abs(int n)
 {
-if (n > 0)
-return(n);
-else
-return(-n);
+	if (n >= 0)
+		return (n);
+	else
+		return (-n);
 }
