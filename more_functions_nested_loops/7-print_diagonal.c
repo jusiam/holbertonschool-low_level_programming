@@ -16,8 +16,8 @@ else
 int x;
 
 for (x = 0 ; x < n ; x++)
-_putchar(' ');
 _putchar('\\');
 _putchar('\n');
+_putchar(' ');
 }
 }
