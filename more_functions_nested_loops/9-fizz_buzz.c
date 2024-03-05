@@ -6,10 +6,9 @@
  * Return: returns the value 0
  */
 
-int a
+int a;
 {
 	for (a = 0, a <= 100, a++);
-	printf(%d, " ", a)
 
 	if (a % 15 == 0)
 	printf(FizzBuzz);
@@ -19,6 +18,9 @@ int a
 
 	else if (a % 5 == 0)
 	printf(Buzz);
+
+	else 
+	printf(%d, " ", a)
 	}
 	printf("\n");
 	return (0);
