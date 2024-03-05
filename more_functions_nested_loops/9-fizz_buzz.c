@@ -9,7 +9,7 @@
 int main(void)
 {
 int a;
-	for (a = 0, a <= 100, a++)
+	for (a = 0; a <= 100; a++)
 {
 	if (a % 15 == 0)
 	printf(FizzBuzz);
