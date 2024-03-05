@@ -2,9 +2,8 @@
 #include <stdio.h>
 
 /**
- * print_square - function to print # on the terminal
- * @size: parameter to be checked
- * Return: returns the value 0
+ * main - function of main
+ * Return: returns the value
  */
 
 int main(void)
