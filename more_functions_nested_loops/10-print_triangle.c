@@ -1,10 +1,9 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- * print_triangle - function to print # on the terminal
- * @n: parameter to be checked
- * Return: returns the value 0
+ * print_triangle - function to print triangle on the terminal using #
+ * @size: parameter for size
+ * Return: returns 0
  */
 
 void print_triangle(int size)
@@ -15,13 +14,13 @@ void print_triangle(int size)
 	{
 		int x, y;
 
-		for (x = 1 ; x < size ; x++)
+		for (x = 1 ; x <= size ; x++)
 		{
 			for (y = 1 ; y <= size - x ; y++)
 				_putchar(' ');
 			for (y = 1 ; y <= x ; y++)
 				_putchar('#');
-				_putchar('\n');
+			_putchar('\n');
 		}
 	}
 }
