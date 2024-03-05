@@ -6,6 +6,8 @@
  * Return: returns the value 0
  */
 
+int main(void)
+{
 int a;
 	for (a = 0, a <= 100, a++)
 {
@@ -19,9 +21,13 @@ int a;
 	printf(Buzz);
 
 	else 
-	printf(%d, " ", a);
+	printf(%d, a);
+
+	if (x != 100)
+			printf(" ");
 	}
 	{
 	printf("\n");
 	return (0);
+}
 }
