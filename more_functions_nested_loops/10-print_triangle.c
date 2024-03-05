@@ -7,7 +7,7 @@
  * Return: returns the value 0
  */
 
-void print_triangle(int size);
+void print_triangle(int size)
 {
 	if (size <= 0)
 		_putchar('\n');
