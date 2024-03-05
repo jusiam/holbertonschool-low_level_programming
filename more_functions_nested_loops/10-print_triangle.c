@@ -2,19 +2,20 @@
 #include <stdio.h>
 
 /**
- * main - function of main
- * Return: returns the value
+ * print_triangle - function to print # on the terminal
+ * @n: parameter to be checked
+ * Return: returns the value 0
  */
 
-int main(void)
+void print_triangle(int size);
 {
-	if (n <= 0)
+	if (size <= 0)
 		_putchar('\n');
 	else
 	{
 		int x, y;
 
-		for (x = 0 ; x < n ; x++)
+		for (x = 0 ; x < size ; x++)
 		{
 			for (y = 1 ; y <= x; y++)
 				_putchar(' ');
