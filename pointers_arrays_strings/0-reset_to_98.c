@@ -3,7 +3,7 @@
 
 /**
  * reset_to_98 - check the code.
- *
+ * @n: parameter to be checked
  * Return: 0
  */
 
