@@ -6,9 +6,8 @@
  * @argv: argv
  * Return: Always 0.
  */
-int main(int argc, char *argv[])
+int main(char *argv[])
 {
-	(void) argc;	
 	int i = 0;
 	printf("%s\n", argv[i]);
 	i++;
