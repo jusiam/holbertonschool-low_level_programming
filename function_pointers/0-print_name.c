@@ -10,5 +10,8 @@
 
 void print_name(char *name, void (*f)(char *))
 {
-	putchar (%s, name)
+	if (f != NULL)
+	{
+		(f) (name);
+	}
 }
