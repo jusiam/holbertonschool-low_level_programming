@@ -10,7 +10,7 @@
  * Description: Initialize the strycture of a dog
  */
 
-void print_dog(struct dog *d);
+void print_dog(struct dog *d)
 {
 	if (d == NULL)
 	return;
