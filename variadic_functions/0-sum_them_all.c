@@ -6,8 +6,8 @@
  * @n: number of integer
  * Return: Always 0.
  */
-int sum_them_all(const unsigned int n, ...)
-{   int sum = 0;
+int sum_them_all(const unsigned int n, ...){
+	int sum = 0;
 	unsigned int i;
 	va_list args;
 
